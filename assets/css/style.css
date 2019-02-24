@@ -38,6 +38,10 @@ body {
    
 }
 
+#small-header {
+    display: none;
+}
+
 .header-links {
     list-style: none;
     position: absolute;
@@ -104,6 +108,7 @@ a:hover {
     background: white;
     border: 1px solid #dddddd;
     padding: 0 2vw;
+    padding-bottom: 30px;
 
 
 }
@@ -186,7 +191,10 @@ input[type=text], select, textarea {
       color: gray;
   }
 
-
+  button {
+      background-color: #4aaaa5 !important;
+      color: white !important;
+  }
 
 /* styling for the Portfolio page */
 
@@ -246,7 +254,11 @@ input[type=text], select, textarea {
     background-image: url("https://source.unsplash.com/random/170x504");
 }
 
-
+.form-control{
+    -webkit-border-radius: 0;
+       -moz-border-radius: 0;
+            border-radius: 0;
+}
 
 
 @media(max-width:662px){
