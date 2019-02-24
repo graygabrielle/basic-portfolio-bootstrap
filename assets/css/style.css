@@ -190,15 +190,27 @@ input[type=text], select, textarea {
     background-position: center center;
     background-repeat: none;
     background-size: cover;
-    width: 30vw;
-    height: 30vw;
+    width: 70vw;
+    height: 70vw;
+    max-width: 250px;
+    max-height: 250px;
     margin: 30px;
     display: inline-block;
-    min-width: 200px;
-    min-height: 200px;
+
+}
 
 
+.cardy h2 {
 
+    color: white;
+    background-color: #4aaaa5;
+    width: 100%;
+    text-align: center;
+    line-height: 200%;
+    font-size: 1em;
+    position: relative;
+    top: 80%;
+  
 }
 
 .card1 {    
@@ -222,17 +234,4 @@ input[type=text], select, textarea {
 }
 
 
-
-.cardy h2 {
-    color: white;
-    background-color: #4aaaa5;
-    width: 100%;
-    text-align: center;
-    line-height: 200%;
-    font-size: 1em;
-    position: relative;
-
-
-  
-}
 
