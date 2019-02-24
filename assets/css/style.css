@@ -54,27 +54,6 @@ h1, h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-
-/* styling for the nav bar on all pages */
-
-/* ul {
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin: 0 25%;
-    height: 70px; 
-    line-height: 70px; 
-    padding-top: 25px;
-}
-
-
-ul li {
-    color: #cccccc;
-    padding: 0 15px;
-    float: left;
-    
-} */
-
 a {
     color: #cccccc;
     text-decoration: none;
@@ -86,20 +65,6 @@ a:hover {
     color: gray;
     text-decoration: none;
 }
-
-#contact {
-    padding-right: 0;
-}
-
-
-#border {
-   
-    border-left: 1px solid #cccccc;
-    border-right: 1px solid #cccccc;
-}
-
-
-
 
 
 /* styling for the central content box on all pages */
@@ -160,6 +125,11 @@ p {
 
 /* styling for the Contact page */
 
+.form-control{
+    -webkit-border-radius: 0;
+       -moz-border-radius: 0;
+            border-radius: 0;
+}
 
 .form {
     padding: 30px 0;
@@ -196,15 +166,7 @@ input[type=text], select, textarea {
       color: white !important;
   }
 
-/* styling for the Portfolio page */
-
-/* .portfolio-img {
-    width: 66%;
-    display: grid;
-    grid-gap: 30px;
-    grid-template-columns: repeat(2, 1fr);
-    margin: 30px 0;
-} */
+  /* styling for portfolio page */
 
 .cardy {
 
@@ -254,12 +216,8 @@ input[type=text], select, textarea {
     background-image: url("https://source.unsplash.com/random/170x504");
 }
 
-.form-control{
-    -webkit-border-radius: 0;
-       -moz-border-radius: 0;
-            border-radius: 0;
-}
 
+/* media queries */
 
 @media(max-width:662px){
     #large-header {
