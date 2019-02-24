@@ -100,7 +100,7 @@ a:hover {
     background: white;
     border: 1px solid #dddddd;
     padding: 0 2vw;
-    margin: auto auto;
+
 
 }
 
@@ -244,3 +244,18 @@ input[type=text], select, textarea {
 
 
 
+
+@media(max-width:662px){
+    #large-header {
+        display: none;
+    }
+
+    #small-header {
+        display: block;
+    }
+
+    a {
+        font-size: .9em;
+    }
+
+}
