@@ -2,6 +2,10 @@ html, body {
     height: 100%;
 }
 
+.outer {
+    height: 100%;
+}
+
 body {
     background-image: URL("../img/background.png");
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
